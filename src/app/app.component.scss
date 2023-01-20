@@ -1,0 +1,32 @@
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-submit {
+    background-color: burlywood;
+    display: block;
+    margin: 50px auto 0 auto
+}
+
+button {
+    background-color: burlywood;
+    border: none;
+    padding: 5px 10px 5px 10px;
+}
+
+form {
+    margin-top: 100px;
+}
+
+.div-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    text-align: center;
+    margin-top: 50px;
+}

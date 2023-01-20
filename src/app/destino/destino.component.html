@@ -1,0 +1,46 @@
+<form [formGroup]="formGroup">
+  <div class="form-group">
+    <label>Team</label>
+    <select
+      name="team"
+      id="team"
+      class="form-control"
+      formControlName="team"
+      placeHolder="Seleccione"
+    >
+      <option *ngFor="let team of teams" [value]="team.idTeam">
+        {{ team.team }}
+      </option>
+    </select>
+  </div>
+  <br />
+  <div class="form-group">
+    <label>Position</label>
+    <select
+      placeholder="Seleccione"
+      name="position"
+      id="position"
+      class="form-control"
+      formControlName="position"
+    >
+      <option *ngFor="let position of positions" [value]="position.id">
+        {{ position.position }}
+      </option>
+    </select>
+  </div>
+
+  <br />
+  <div class="form-group">
+    <label>Player</label>
+    <select
+      name="player"
+      id="player"
+      class="form-control"
+      formControlName="player"
+    >
+      <option *ngFor="let player of players" [value]="player">
+        {{ player }}
+      </option>
+    </select>
+  </div>
+</form>

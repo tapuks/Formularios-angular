@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+}
+
+.form-group {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    padding: 7px;
+}
